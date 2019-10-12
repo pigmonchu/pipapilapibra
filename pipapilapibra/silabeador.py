@@ -38,6 +38,10 @@ def gruposVocales(word):
                 grupo = (position, word[position])
                 jump = 0
             grupos.append(grupo)
+        elif caracter in semivocales:
+            grupo = (position, word[position])
+            jump = 0
+            grupos.append(grupo)
     
     return grupos
 

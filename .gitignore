@@ -2,3 +2,9 @@
 venv
 __pycache__
 */__pycache__
+.pypirc
+dist
+License.txt
+MANIFEST
+setup.cfg
+setup.py

@@ -9,3 +9,4 @@ class TestPilengua(unittest.TestCase):
 
     def test_phrase(self):
         self.assertEqual(pilengua('Es una casa muy bonita, Ramón'), 'pies piupina picapisa pimuy pibopinipita, pirrapimón')
+        self.assertEqual(pilengua('Esa acción es muy interesante, interactiva y mangachapuy'),'piepisa piacpición pies pimuy piinpitepirepisanpite, piinpitepiracpitipiva piy pimanpigapichapipuy')
